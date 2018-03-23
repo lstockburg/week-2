@@ -1,3 +1,4 @@
 $(document).ready(function() {
-  $("").submit(function(event){
+  $("#quiz").submit(function(event){
     event.preventDefault();
+    var score = parseInt($("input:radio[name=febe]:checked").val()) + parseInt($("input:radio[]"))

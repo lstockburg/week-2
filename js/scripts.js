@@ -3,4 +3,4 @@ $(document).ready(function() {
     event.preventDefault();
     var score = parseInt($("input:radio[name=febe]:checked").val()) + parseInt($("input:radio[name=dof]:checked").val()) +
     parseInt($("#build").val()) +
-    parseInt()
+    parseInt($("#lang").val());

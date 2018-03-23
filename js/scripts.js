@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("#quiz").submit(function(event){
     event.preventDefault();
-    var name = ($("input:text[name=person]").val())
+    var name = ($("input:text[name=person]:required").val())
     var score = parseInt($("input:radio[name=febe]:checked").val()) + parseInt($("input:radio[name=dof]:checked").val()) +
     parseInt($("#appeal").val()) +
     parseInt($("#lang").val()) +

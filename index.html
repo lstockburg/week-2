@@ -12,6 +12,10 @@
       <h1>Which Epicodus track is right for you?</h1>
       <form id="quiz">
         <div class="form-group">
+          <h3>What is your name?</h3>
+          <input type="text" name="person">
+        </div>
+        <div class="form-group">
           <h3>Would you like to work on the front end or back end?</h3>
           <div class="radio">
             <label>
@@ -19,7 +23,7 @@
               Front end!
             </label>
           </div>
-          <div class="radio" id="">
+          <div class="radio">
             <label>
               <input value=1 type="radio" name="febe">
               Back end!
@@ -28,7 +32,7 @@
         </div>
         <div class="form-group">
           <h3>Are you more interested in design or functionality?</h3>
-          <div class="radio" id="">
+          <div class="radio">
             <label>
               <input value=2 type="radio" name="dof" checked>
               Design
@@ -74,7 +78,7 @@
         <button type="submit" id="submit" class="btn btn-primary">Submit!</button>
       </form>
       <div class="well">
-        <h2 class="result">I suggest you join the <span id="track"></span> track, to build <span id="whatbuild"></span>!</h2>
+        <h2 class="result"><span id=name></span>, I suggest you join the <span id="track"></span> track, to build <span id="whatbuild"></span>!</h2>
 
       </div>
     </div>

@@ -1,3 +1,10 @@
+body {
+  background-color: #c6fff0;
+}
+ label {
+   font-size: 25px;
+ }
+
 .result {
   display: none;
 }

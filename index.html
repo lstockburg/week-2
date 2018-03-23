@@ -44,6 +44,7 @@
         <div class="form-group">
           <h3>Which of these appeals to you?</h3>
           <select required class="form-control" id="appeal" name="appeal">
+            <option>Select</option>
             <option value="1">Internal Software</option>
             <option value="2">Web Applications</option>
             <option value="1">Android User Interfaces</option>
@@ -53,6 +54,7 @@
         <div class="form-group">
           <h3>How broad in application do you want your language to be?</h3>
           <select required class="form-control" id="lang" name="lang">
+            <option>Select</option>
             <option value="1">Very Specific</option>
             <option value="2">Specific</option>
             <option value="3">Broad</option>
@@ -62,15 +64,17 @@
         <div class="form-group">
           <h3>What sort of company would you like to work for?</h3>
           <select required class="form-control" id="comp" name="comp">
+            <option>Select</option>
             <option value="1">None, I'd like to work for myself</option>
             <option value="1">A small startup</option>
             <option value="2">A decent-sized company</option>
             <option value="3">A corporation</option>
           </select>
         </div>
-        <button type="submit" id="submit" class="btn btn-primary"></button>
+        <button type="submit" id="submit" class="btn btn-primary">Submit!</button>
       </form>
       <div class="well">
+        <h2 class="result">I suggest you join the <span id="track"></span> track, to build <span id="whatbuild"></span>!</h2>
 
       </div>
     </div>

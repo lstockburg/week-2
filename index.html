@@ -42,23 +42,33 @@
           </div>
         </div>
         <div class="form-group">
-          <h3>Which one of these activities appeals most to you?</h3>
-          <select required class="form-control" id="build" name="build">
-            <option value=>Internal Software</option>
-            <option value=>Web Applications</option>
-            <option value=>Android User Interfaces</option>
+          <h3>Which of these appeals to you?</h3>
+          <select required class="form-control" id="appeal" name="appeal">
+            <option value="1">Internal Software</option>
+            <option value="2">Web Applications</option>
+            <option value="1">Android User Interfaces</option>
+            <option value="2">Maintaining multiples websites</option>
           </select>
         </div>
         <div class="form-group">
-          <h3>How broad do you want your language to be?</h3>
+          <h3>How broad in application do you want your language to be?</h3>
           <select required class="form-control" id="lang" name="lang">
-            <option value=></option>
-            <option value=></option>
-            <option value=></option>
-            <option value=></option>
+            <option value="1">Very Specific</option>
+            <option value="2">Specific</option>
+            <option value="3">Broad</option>
+            <option value="4">Very broad</option>
           </select>
         </div>
-        <button type="submit" id="" class="btn btn-primary"></button>
+        <div class="form-group">
+          <h3>What sort of company would you like to work for?</h3>
+          <select required class="form-control" id="comp" name="comp">
+            <option value="1">None, I'd like to work for myself</option>
+            <option value="1">A small startup</option>
+            <option value="2">A decent-sized company</option>
+            <option value="3">A corporation</option>
+          </select>
+        </div>
+        <button type="submit" id="submit" class="btn btn-primary"></button>
       </form>
       <div class="well">
 

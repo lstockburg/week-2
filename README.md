@@ -3,11 +3,11 @@
 ##By Luke Stockburger
 
 ###Requirements:
-*A web browser
-*A modicum of literacy
-*A free five minutes
+A web browser
+A modicum of literacy
+A free five minutes
 
 ###Technologies used
-*CSS
-*Javascript
-*HTML
+CSS
+Javascript
+HTML
